@@ -1,13 +1,20 @@
 # OpenIC
-Open source tools for IC design
+
+A collection of open-source tools for IC design and nanoelectronics engineering.
+
+[OpenIC 28-09-2024](https://drive.google.com/drive/folders/1OC2PqxyITxwAAfkFKiqqkY4tVvCiXbRn?usp=sharing)
+
+---
 
 ## VM Info
+
 ```plain
 Title: 				OpenIC
 Author: 			Ahmed S. Lilah
 Contact: 			sabrylilah2325667@gmail.com
+Download Link:			https://drive.google.com/drive/folders/1OC2PqxyITxwAAfkFKiqqkY4tVvCiXbRn?usp=sharing
 VM Version:			28-09-2024
-VM Passord:			0000
+VM Password:			0000
 Compressed Size:		32GB
 Extracted Size: 		160GB
 Recommended Disk Space: 	200GB+
@@ -22,7 +29,7 @@ Installed:
 				miniconda				# Minimalist conda installation.
 				freecad					# Parametric 3D modeling software.
 				    |--	Electronic WrokBench		# FastCap2, FasterCap (capacitance extraction tool), FastHenry2 (inductance extraction tool), VoxHenry (inductance extraction for voxelized structures), FastImp (full-wave impedance extraction).
-				gaw	 				# waveform viewer (the installed in a fork named xschem-gaw optimized for xschem requests).
+				gaw	 				# waveform viewer (installed in a fork named xschem-gaw optimized for xschem requests).
 				gcc 					# A C/C++ compiler.
 				gh 					# GitHub CLI.
 				i3					# i3wm tiling window manager.
@@ -31,7 +38,7 @@ Installed:
 				klayout					# Your Mask Layout Friend.
 				lunar vim				# A NeoVim Distro.
 				magic					# VLSI layout editor, extraction, and DRC tool.
-				maxima					# An open source, free system for the manipulation of symbolic and numerical expressions. It is the right companion for SciLab.
+				maxima					# An open-source, free system for symbolic and numerical expression manipulation. It is the right companion for SciLab.
 				neovim					# Vim-based text editor.
 				netgen					# Circuit netlist comparison (LVS) and netlist conversion tool.
 				ngspice 				# Circuit simulator.
@@ -40,7 +47,7 @@ Installed:
 				python3					# Python 3.10.12
 				qflow 					# Complete digital synthesis design flow using open-source software and open-source standard cell libraries.
 				qrouter					# Over-the-cell (sea-of-gates) detail router.
-				scilab					# scilab is free and open source software for numerical computation providing a powerful computing environment for engineering and scientific applications. It is a very valid replacement for Matlab.
+				scilab					# scilab is free and open-source software for numerical computation providing a powerful computing environment for engineering and scientific applications. It is a very valid replacement for Matlab.
 				systemc					# Core SystemC Language and Examples.
 				tcl-tk					# TCL-TK (Tool Command Language)
 				texlive					# TeX Live is a cross-platform, free software distribution for the TeX typesetting system.
@@ -67,12 +74,12 @@ PDKs
 					    |--	osu-sc-gf180mcu		# OSU digital standard cell library.
 
 WARNING:
-	If you are not aware of the machine setup refrain from deleting any files on the machine.
+	If you are not familiar with the machine setup refrain from deleting any files on the machine.
 
 Special Instruction:
 	Using OpenPDKs Variants:
                 - run `naneng list` to know the available PDKs.
-                - run `naneng init <pdk_name>` initilizes the xschemrc files for the pdk.
+                - run `naneng init <pdk_name>` initializes the xschemrc files for the PDK
 	How to run CACE:
 		- run `cd ~/.naneng/tools/cace`
 		- run `nix-shell` -> the current shell will be the Nix Shell.
@@ -80,8 +87,10 @@ Special Instruction:
 		- after you're finished you can run exit to close the nix-shell and return back to the normal ubuntu shell.
 ```
 
+---
 
 ## Bugs & Features
+
 If you find a situation where you are stuck with something related to the machine.
 Then take the initiative to open a GitHub issue regarding the problem. 
 Choosing the correct label will help us get to you better so choose the appropriate label.
