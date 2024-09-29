@@ -8,6 +8,10 @@ Open source tools for IC design
 password: 0000
 
 ## Bugs & Features
-If you encounter any bugs with the machine, please open an issue with the label Bug.
-
-If you have any suggestions for new features, tools, PDKs, or updates please open an issue with the label Feature.
+If you find a situation where you are stuck with something related to the machine.
+Then take the initiative to open a GitHub issue regarding the problem. 
+Choosing the correct label will help us get to you better so choose the appropriate label.
+- bug
+- documentation
+- enhancement
+- question
