@@ -4,7 +4,7 @@ A collection of open-source tools for IC design and nanoelectronics engineering.
 
 Runs on VMware Player/Workstation.
 
-[OpenIC 2026-08-04 v1.0.0](https://drive.google.com/file/d/1fIkCYpazBwEEdvJpjo1F2pEes0RGP7Rs/view?usp=sharing)
+Download Link: [OpenIC 2026-08-04 v1.0.0](https://drive.google.com/file/d/1fIkCYpazBwEEdvJpjo1F2pEes0RGP7Rs/view?usp=sharing)
 
 ---
 
